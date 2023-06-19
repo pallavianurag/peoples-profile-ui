@@ -1,0 +1,27 @@
+.post-container {
+  padding: 1px; 
+  display: flex; 
+}
+
+.post-child1 {
+  width: 25%;
+  /* float: left; */
+  /* display: inline-block; */
+  flex: 1 0 auto;
+  max-width : 25%;
+}  
+.line1{
+  border-top: 1px solid grey;
+   border-bottom: none;
+   border-right: none;
+   border-left: none;
+ width: 98%;
+}
+.post-child2{
+  padding-top: 40px;
+  padding-left: 2%;
+  /* display: inline-block; */
+  flex: 2;
+}
+
+

@@ -1,0 +1,107 @@
+/* .head{
+  position: absolute;
+  padding-left: 300px;
+  padding-top: 50px; 
+} */
+
+.float-container {
+  padding: 1px; 
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.float-child1 {
+  flex: 1 0 auto;
+  max-width : 28%;
+}  
+
+.float-child2{
+  padding-top: 20px;
+  flex: 2;
+}
+
+.float2 {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.float2-1{
+  /* display: inline-block; */
+  flex: 1;
+  padding-right: 30px;
+}
+.float2-2{
+  /* display: inline-block; */
+  border-left: 1px solid grey;
+  flex: 2;
+  height: 570px;
+  padding-left: 50px;
+}
+.leftside{
+  padding-left : 20%;
+}
+.pic{
+  height: 200px;
+  width :200px;
+  float: left;
+  border-radius: 50%;
+  position: absolute;
+
+}
+.l1{
+  position: relative;
+  top:210px;
+  font-weight: bold;
+  text-align: center;
+  color : #707070;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.l2{
+  text-align: center;
+  position: relative;
+  top:210px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color : #707070;
+  font-size: 15px;
+}
+
+
+.top{
+  display: flex;
+}
+.line1{
+   border-top: 1px solid grey;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  width: 98%;
+}
+
+.map{
+  width: 80%;
+  height: 60%;
+  border-radius: 10%;
+}
+
+.geo{
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  padding-left: 58%;
+}
+
+.address-head{
+  font-family: sans-serif;
+  font-weight: 100;
+  color : #707070;
+  font-size: 17px;
+}
+
+.address{
+  padding-left: 7%;
+  font-family: sans-serif;
+  font-weight: 100;
+  color : #707070;
+  font-size: 17px;
+}
